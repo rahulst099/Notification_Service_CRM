@@ -1,0 +1,27 @@
+{
+  "name": "notificationserviceformba",
+  "version": "1.0.0",
+  "description": "\"This notification service will be used to notify both requester and assignee of the ticket by email once the ticket is updated\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulst099/CRM_Notification_Service.git"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulst099/CRM_Notification_Service/issues"
+  },
+  "homepage": "https://github.com/rahulst099/CRM_Application#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8"
+  }
+}
